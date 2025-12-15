@@ -1,0 +1,18 @@
+Package: PGDINA
+Type: Package
+Title: The Generalized DINA Model Framework for Polytomous Attributes
+Version: 0.1.0.
+Authors@R: 
+    person("Xuelan", "Qiu", , "first.last@example.com", role = c("aut", "cre"))
+Authors@R: c(person(given = "Xuelan",family = "Qiu", role = c("aut", "cre", "cph"),email = "sherryqiu@cityu.edu.mo"),person(given = "Jimmy", family = "de la Torre", role = c("aut", "cph")),person(given="Kevin Carl",family = "Santos",role = "aut", "cph"),person(given="Wen Chao",family = "Ma",role = "ctb"),person(given="Bo",family = "Zhao",role = "ctb"))
+Description: An implementation of cognitive diagnosis modeling for polytomous attributes, including models for saturated polytomous cognitive diagnosis model (sp-CDM) by de la Torre, Qiu, & Santos <DOI:10.1017/psy.2024.16> and its special cases for polytomous attributes, including pDINA, pDINO, and pA-CDM. Joint attribute distribution can be independent, saturated, and higher-order. Q-matrix validation for polytomous attributes by de la Torre, Qiu, & Santos <DOI:10.1007/s11336-021-09821-x> can also be conducted. 
+License: GPL-3
+LazyData: TRUE
+Depends: R (>= 3.5.0)
+Imports: GDINA, alabama, graphics, ggplot2, MASS, nloptr, numDeriv, Rcpp (>=0.12.1), Rsolnp, stats, shiny, shinydashboard, utils
+Suggests: CDM, Matrix, testthat, pkgdown, knitr, rmarkdown
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Author: Xuelan Qiu [aut, cre, cph], Jimmy de la Torre [aut, cph], Bo Zhao [ctb]
+Maintainer: Xuelan Qiu <sherryqiu@cityu.edu.mo>
